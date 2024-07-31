@@ -37,3 +37,6 @@ Array.from(document.querySelectorAll('.navigation-button')).forEach((item) => {
     item.parentElement.parentElement.classList.toggle('change');
   };
 });
+
+let vid = document.getElementById('myVideo');
+vid.playbackRate = 0.5;

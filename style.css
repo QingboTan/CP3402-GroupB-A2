@@ -173,22 +173,32 @@ html {
 
 .header-text {
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.1rem;
   text-shadow: 0 0.3rem 0.5rem var(--grey-color);
 }
 
 .heading {
-  font-size: 8rem;
+  font-size: 6rem;
   color: var(--white-color);
 }
 
 .header-paragraph {
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: 300;
   color: var(--secondary-color);
   max-width: 70rem;
   margin: auto;
+  padding-bottom: 1.2rem;
+}
+
+.header-paragraph-1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  max-width: 120rem;
+  margin: auto;
+  padding-top: 1rem;
 }
 
 .logo {
@@ -288,7 +298,7 @@ html {
 }
 /* End of header */
 
-/* Popular tours */
+/* Programs */
 .popular-tours {
   padding: 5rem 0 10rem 0;
 }
@@ -413,7 +423,7 @@ html {
   letter-spacing: 0.2rem;
   cursor: pointer;
 }
-/* End of popular tours */
+/* End of Programs */
 
 /* Stories */
 .stories {
@@ -640,6 +650,20 @@ html {
 /* End of footer */
 
 @media (max-width: 1200px) {
+  .heading {
+    font-size: 3.5rem;
+  }
+
+  .header-paragraph {
+    font-size: 2.2rem;
+    padding-bottom: 0.8;
+  }
+
+  .header-paragraph-1 {
+    font-size: 1.5rem;
+    padding-bottom: 0.5;
+  }
+
   .cards-wrapper {
     flex-direction: column;
     align-items: center;
@@ -672,11 +696,17 @@ html {
   }
 
   .heading {
-    font-size: 6rem;
+    font-size: 2.5rem;
   }
 
   .header-paragraph {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .header-paragraph-1 {
+    font-size: 1.2rem;
+    padding-bottom: 0.1rem;
   }
 
   .popular-tours-heading {
@@ -704,7 +734,15 @@ html {
 }
 
 @media (max-width: 800px) {
+  .heading {
+    font-size: 3rem;
+  }
+
   .header-paragraph {
+    font-size: 2.5rem;
+  }
+
+  .header-paragraph-1 {
     display: none;
   }
 
